@@ -1,0 +1,32 @@
+#root {
+  margin: 30px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.followers .ui.card:last-child {
+  margin-bottom: auto;
+}
+
+.followers .ui.card:first-child {
+  margin-top: auto;
+}
+
+.followers .ui.card {
+  margin: 20px;
+}
+
+div h2 {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
